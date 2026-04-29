@@ -1,0 +1,30 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*.{png,jpg,gif,svg}", "/css/*", "/js/*", "/assets/*"]
+  },
+  "routes": [
+    {
+      "route": "/post/*",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/create",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/edit/*",
+      "rewrite": "/index.html"
+    }
+  ],
+  "globalHeaders": {
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff"
+  },
+  "mimeTypes": {
+    ".json": "application/json",
+    ".js": "application/javascript",
+    ".css": "text/css"
+  }
+}
