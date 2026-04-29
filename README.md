@@ -102,6 +102,12 @@ docker-compose up --build
 
 # Access at http://localhost:3000
 ```
+## Live Application URL
+
+## Public URL:
+[https://yellow-sea-0f3adae00.7.azurestaticapps.net](https://yellow-sea-0f3adae00.7.azurestaticapps.net)
+
+---
 
 ---
 
@@ -112,7 +118,20 @@ docker-compose up --build
 2. Connect your GitHub repo
 3. Set output location to `dist`
 4. Done! Azure handles the rest with auto-deployments.
+---
 
+---
+## ⚠️ Assumptions Made
+
+* This project is built as part of **Module 2 Frontend assignment**
+* The application is **single-user only** (no authentication system)
+* All data is stored in **browser localStorage**
+* No backend or database is used
+* Data is **not shared across devices or browsers**
+* Internet is only required for loading external images (if used)
+* The app assumes a modern browser with JavaScript enabled
+* State persistence depends on local browser storage (clearing cache will remove data)
+---
 ### Quick Alternatives
 ```bash
 # Vercel
@@ -148,7 +167,7 @@ npx netlify deploy --prod
 
 ## 👨‍💻 Author
 
-**[Your Name]**
+**[Sreyansh Srivastava]**
 
 ---
 
